@@ -29,6 +29,7 @@ The initial data was preprocessed by performing the following steps:
 The first model run for the Oversampling method was a Native Random Oversampling model.
 
 The balanced accuracy score for this model is shown below:
+
 ![NRO_balance](https://github.com/kkoehn8/Credit_Risk_Analysis/blob/main/Images/NativeRandomOversampling_BalancedAccuracyScore.PNG)
 
 
@@ -39,6 +40,7 @@ The classification report showing precision and recall scores for this model is 
 The second model run for the Oversampling method was a SMOTE Oversampling model.
 
 The balanced accuracy score for this model is shown below:
+
 ![SMOTE_balance](https://github.com/kkoehn8/Credit_Risk_Analysis/blob/main/Images/SMOTE_BalancedAccuracyScore.PNG)
 
 
@@ -49,6 +51,7 @@ The classification report showing precision and recall scores for this model is 
 The third model run was an Undersampling model.
 
 The balanced accuracy score for this model is shown below:
+
 ![Under_balance](https://github.com/kkoehn8/Credit_Risk_Analysis/blob/main/Images/Undersampling_BalancedAccuracyScore.PNG)
 
 
@@ -59,6 +62,7 @@ The classification report showing precision and recall scores for this model is 
 The forth model run was the SMOTEENN model of the Comination (Over and Under) Sampling method. 
 
 The balanced accuracy score for this model is shown below:
+
 ![SMOTEENN_balance](https://github.com/kkoehn8/Credit_Risk_Analysis/blob/main/Images/Combination_BalancedAccuracyScore.PNG)
 
 
@@ -69,6 +73,7 @@ The classification report showing precision and recall scores for this model is 
 The fifth model model run was the Balanced Random Forest Classifier model of the Ensemble Classifiers method.  
 
 The balanced accuracy score for this model is shown below:
+
 ![BRF_balance](https://github.com/kkoehn8/Credit_Risk_Analysis/blob/main/Images/RandomForest_BalancedAccuracyScore.PNG)
 
 
@@ -79,6 +84,7 @@ The classification report showing precision and recall scores for this model is 
 The final model run was also from the Ensemble Classifiers method and it was the Easy Ensemble AdaBoost Classifier. 
 
 The balanced accuracy score for this model is shown below:
+
 ![EEABC_balance](https://github.com/kkoehn8/Credit_Risk_Analysis/blob/main/Images/EasyEnsemble_BalancedAccuracyScore.PNG)
 
 
@@ -86,13 +92,5 @@ The classification report showing precision and recall scores for this model is 
 ![EEABC_classification](https://github.com/kkoehn8/Credit_Risk_Analysis/blob/main/Images/EasyEnsemble_ClassificationReport.PNG)
 
 ## Summary
-
-
-
-
-
-
-Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
-
-
+The different models provid different results and many of them were quite similar, however the Ensemble Classifiers had a much higher balance accuracy score. Looking at the results of the models the recommended model to use would be the Easy Ensemble AdaBoost Classifier model. In addition to a high balanced accuracy score this model also had precision and recall scores that were substantiall higher than for other models.
 
