@@ -92,5 +92,5 @@ The classification report showing precision and recall scores for this model is 
 ![EEABC_classification](https://github.com/kkoehn8/Credit_Risk_Analysis/blob/main/Images/EasyEnsemble_ClassificationReport.PNG)
 
 ## Summary
-The different models provid different results and many of them were quite similar, however the Ensemble Classifiers had a much higher balance accuracy score. Looking at the results of the models the recommended model to use would be the Easy Ensemble AdaBoost Classifier model. In addition to a high balanced accuracy score this model also had precision and recall scores that were substantiall higher than for other models.
+The different models provided different results and many of them were quite similar, however the Ensemble Classifiers had a much higher balance accuracy score. Looking at the results of the models the recommended model to use would be the Easy Ensemble AdaBoost Classifier model. In addition to a high balanced accuracy score this model also had precision and recall scores that were substantiall higher than for other models.
 
